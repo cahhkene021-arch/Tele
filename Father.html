@@ -207,3 +207,156 @@ BotList.init();
   </body>
 </html>
 <!-- page generated in 5.27ms -->
+
+GET https://webappinternal.telegram.org/botfather/create 200
+
+Request Headers
+
+Accept: application/json, text/javascript, */*; q=0.01
+X-Aj-Referer: https://webappinternal.telegram.org/botfather
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 866
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 03
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"v":520,"t":"BotFather","h":"    <main class=\"tm-main\">\n    <section class=\"tm-main-intro\">\n      <img src=\"\/img\/botfather-upload-avatar.svg\" class=\"tm-main-intro-picture js-upload-button\" data-target=\"bot_userpic\">\n      <h1 class=\"tm-main-intro-header\">New bot<\/h1>\n      <p class=\"tm-main-intro-text\" style=\"max-width: 312px;\">\n        Enter a name, description and username to&nbsp;create&nbsp;a&nbsp;new&nbsp;bot.\n      <\/p>\n    <\/section>\n    <form id=\"bot_form\" class=\"tm-section\">\n      <div class=\"tm-field\" style=\"border-radius: 6px 6px 0 0; margin-bottom: 1px;\">\n        <input type=\"text\" maxlength=\"64\" class=\"form-control tm-input\" name=\"title\" value=\"\" placeholder=\"Bot Name\" autocomplete=\"off\"  spellcheck=\"false\" enterkeyhint=\"next\" \/>\n        <span class=\"tm-search-loading\"><svg class=\"circle-progress-wrap\" viewPort=\"0 0 22 22\" width=\"22px\" height=\"22px\"><circle class=\"circle-progress\" cx=\"50%\" cy=\"50%\" stroke-dashoffset=\"62\"><\/circle><\/svg><\/span>\n        <span class=\"icon-before icon-search-clear tm-search-clear js-form-clear\"><\/span>\n      <\/div>\n      <div class=\"tm-field\" style=\"border-radius: 0 0 6px 6px;\">\n        <textarea maxlength=\"120\" rows=\"1\" expandable class=\"form-control tm-input\" name=\"about\" placeholder=\"About (Optional)\" autocomplete=\"off\" enterkeyhint=\"next\"><\/textarea>\n        <span class=\"icon-before icon-search-clear tm-search-clear js-form-clear\"><\/span>\n      <\/div>\n      <div class=\"tm-field\" style=\"margin-top: 16px\">\n        <span class=\"tm-field-const-prefix\">t.me\/<\/span>\n        <input type=\"text\" class=\"form-control tm-input\" name=\"username\" value=\"\" placeholder=\"username_bot\" autocomplete=\"off\" spellcheck=\"false\" enterkeyhint=\"done\" \/>\n      <\/div>\n      <p class=\"hint-text\" data-for=\"username\"><\/p>\n      <p class=\"help-text\">Choose a username for your bot. It must end in `bot`. Like this, for example: TetrisBot or tetris_bot.<\/p>\n    <\/form>","j":"Main.init('ecd806524af287e719');\nCreateBot.init();\n","s":{"backButton":"\/botfather"}}
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotFather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" /><meta name="twitter:card" content="summary"></meta>
+<meta property="og:title" content="BotFather">
+
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+    
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+    <link href="//telegram.org/css/bootstrap-extra.css?2" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/botfather.css?45" rel="stylesheet">
+
+  </head>
+  <body class="emoji_image no-transition">
+    
+    <div id="aj_progress" class="progress-bar"></div>
+    
+    <div id="aj_content">    <section class="tm-main-intro" style="width:fit-content;margin:auto;">
+    <img src="/img/botfather-avatar.png" style="width: 100px; height: 100px; margin-bottom: 20px;">
+    <h1 class="tm-main-intro-header">What is BotFather?</h1>
+    <p class="tm-main-intro-text" style="max-width: 312px; margin-bottom: 28px;">
+      BotFather is the one bot to rule them all. Use it to create new bot accounts and manage your existing bots. <a href="https://core.telegram.org/bots" target="_blank" rel="noopener">Learn more</a>
+    </p>
+    <a class="tm-active-button" href="/botfather/create">Create a New Bot</a>
+  </section></div>
+    <script src="//telegram.org/js/jquery.min.js?1"></script>
+    <script src="//telegram.org/js/bootstrap.min.js"></script>
+    <script src="//telegram.org/js/main-aj.js?73"></script>
+    <script src="/js/telegram-web-app.js?62"></script>
+<script src="/js/jquery-ui.min.js?1"></script>
+<script src="/js/jquery.ui.touch-punch.js?1"></script>
+<script src="/js/jquery-ex.js?22"></script>
+<script src="/js/botfather.js?52"></script>
+
+    <script>ajInit({"version":520,"apiUrl":"\/api?hash=ecd806524af287e719"});</script>
+    <script id="aj_script">Main.init('ecd806524af287e719');
+setBackButton(null)
+BotList.init();
+</script>
+    <script>Aj.pageLoaded();</script>
+    
+  </body>
+</html>
+<!-- page generated in 5.27ms -->
+
+  POST https://webappinternal.telegram.org/botfather/api?hash=ecd806524af287e719 200
+
+Request Headers
+
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 161
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 03
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"ok":true,"media":{"photo_id":"DuL0bguhoDQvnqm6NJBDPopfE7ooVvi5P_5eAPklLAHEtkkuvV2kxdI5uHIcYRZ1","src":"\/botfather\/file\/bot_userpic\/DuL0bguhoDQvnqm6NJBDPopfE7ooVvi5P_5eAPklLAHEtkkuvV2kxdI5uHIcYRZ1.jpg"}}
+POST https://webappinternal.telegram.org/botfather/api?hash=ecd806524af287e719 200
+
+Request Data
+
+username=&method=checkBotUsername
+
+Request Headers
+
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 62
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 03
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"error":"Sorry, this username is invalid."}
+
+  POST https://webappinternal.telegram.org/botfather/api?hash=ecd806524af287e719 200
+
+Request Data
+
+username=Bocahcilikbgtbot&method=checkBotUsername
+
+Request Headers
+
+Content-Type: application/x-www-form-urlencoded; charset=UTF-8
+Accept: application/json, text/javascript, */*; q=0.01
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 31
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 03
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"ok":true}
+
+
+  
