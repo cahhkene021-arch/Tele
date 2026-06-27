@@ -2068,3 +2068,320 @@ strict-transport-security: max-age=31536000; includeSubDomains; preload
 
 {"ok":true,"msg":null}
   
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotFather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" /><meta name="twitter:card" content="summary"></meta>
+<meta property="og:title" content="BotFather">
+
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+    
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+    <link href="//telegram.org/css/bootstrap-extra.css?2" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/botfather.css?45" rel="stylesheet">
+
+  </head>
+  <body class="emoji_image no-transition">
+    
+    <div id="aj_progress" class="progress-bar"></div>
+    
+    <div id="aj_content"><main class="tm-main">
+  <form class="tm-section">
+    <section class="tm-main-intro">
+      <div style="--icon: var(--image-url-key)" class="tm-main-intro-picture tm-accent-icon"></div>
+      <h1 class="tm-main-intro-header tr-bot-name">Login Widget</h1>
+      <p class="tm-main-intro-text tm-username-link js-usernames">
+        Allow users to log in to your website or app <br/>with their Telegram account.
+      </p>
+    </section>
+    <div class="tm-field">
+      <input type="url" class="form-control tm-input" name="web_login" value="" placeholder="Enter URL" autocomplete="off"  spellcheck="false" />
+      <span class="tm-search-loading"><svg class="circle-progress-wrap" viewPort="0 0 22 22" width="22px" height="22px"><circle class="circle-progress" cx="50%" cy="50%" stroke-dashoffset="62"></circle></svg></span>
+      <span class="icon-before icon-search-clear tm-search-clear js-form-clear"></span>
+    </div>
+    <p class="hint-text" data-for="web_login"></p>
+    <p class="help-text link-chevrons">Link your website with your bot to use the Telegram Login Widget. <a href="https://core.telegram.org/bots/features#web-login" target="_blank" rel="noopener">Read more</a></p>
+  </form>
+    <form class="tm-section tm-menu-items js-migrate-oauth-section">
+    <div class="tm-table-wrap">
+      <a class="tm-row tm-row-add js-migrate-oauth">
+        <span>Switch to OpenID Connect Login</span>
+      </a>
+    </div>
+    <p class="help-text link-chevrons">Toggle Telegram Login Library / OpenID Connect to replace the legacy Login Widget. <a href="https://core.telegram.org/bots/telegram-login" target="_blank" rel="noopener">Read more</a></p>
+  </form>
+</main>  <a class="tm-bot-anchor tr-bot-anchor" href="/botfather/bot/8795196139">
+    <img class="tr-bot-avatar" src="https://cdn5.telesco.pe/file/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg">
+    <span class="tr-bot-name">Bocah</span>
+  </a></div>
+    <script src="//telegram.org/js/jquery.min.js?1"></script>
+    <script src="//telegram.org/js/bootstrap.min.js"></script>
+    <script src="//telegram.org/js/main-aj.js?73"></script>
+    <script src="/js/telegram-web-app.js?62"></script>
+<script src="/js/jquery-ui.min.js?1"></script>
+<script src="/js/jquery.ui.touch-punch.js?1"></script>
+<script src="/js/jquery-ex.js?22"></script>
+<script src="/js/botfather.js?52"></script>
+
+    <script>ajInit({"version":520,"apiUrl":"\/api?hash=ecd806524af287e719","state":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139"}});</script>
+    <script id="aj_script">l.add({"WEB_CLIENT_SECRET_REVOKE_TITLE":"Revoke Client Secret","WEB_CLIENT_SECRET_REVOKE_TEXT":"Do you want to revoke the client secret?","WEB_API_TOKEN_REVOKE_BTN":"Revoke","WEB_CLIENT_SECRET_REVOKE_SUCCESS":"Client Secret revoked successfully.","WEB_GENERIC_COPY_SUCCESS":"Copied to clipboard.","WEB_LOGIN_MIGRATE_CONFIRM_BTN":"Confirm","WEB_LOGIN_MIGRATE_TEXT":"This action permanently disables the legacy login method.","WEB_LOGIN_MIGRATE_TITLE":"Switch to OAuth 2.0 Login","WEB_TOKEN_COPY_SUCCESS":"Bot token copied to clipboard.","WEB_NATIVE_APP_PLATFORM_ANDROID":"Android","WEB_NATIVE_APP_PLATFORM_IOS":"iOS","WEB_NATIVE_APP_PACKAGE_NAME":"Package Name","WEB_NATIVE_APP_SHA256_FINGERPRINT":"SHA-256 Fingerprint","WEB_NATIVE_APP_TEAM_ID":"Team ID","WEB_NATIVE_APP_BUNDLE_ID":"Bundle ID","WEB_NATIVE_APP_URL":"App URL","WEB_NATIVE_APP_REGISTERED":"Native app registered successfully."});
+Main.init('ecd806524af287e719');
+BotSettings.init();
+</script>
+    <script>Aj.pageLoaded();</script>
+    
+  </body>
+</html>
+<!-- page generated in 9.26ms -->
+
+  GET https://webappinternal.telegram.org/botfather/bot/8795196139/payments 200
+
+Request Headers
+
+Accept: application/json, text/javascript, */*; q=0.01
+X-Aj-Referer: https://webappinternal.telegram.org/botfather/bot/8795196139
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 8121
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 04
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"v":520,"t":"BotFather","h":"      <main class=\"tm-main\">\n    <section class=\"tm-main-intro\">\n      <div style=\"--icon: var(--image-url-payments);\" class=\"tm-main-intro-picture tm-accent-icon\"><\/div>\n      <h1 class=\"tm-main-intro-header\">Payments<\/h1>\n      <p class=\"tm-main-intro-text\" style=\"max-width: 312px;\">\n        Telegram Bot Payments are a free and open platform that allows sellers to accept payments for physical goods and services. <a href=\"https:\/\/core.telegram.org\/bots\/payments\">Read more<\/a>\n      <\/p>\n    <\/section>\n    \n    <section class=\"tm-section\">\n      <div class=\"tm-section-header\">\n        <h2 class=\"tm-section-header-text\">\n          Payment Providers\n        <\/h2>\n      <\/div>\n      <div class=\"tm-table-wrap\">\n            <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/yam\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/eGaw6bDDxVsiqnQeBZqTrgtCFnnLayl6FKcMlTnWU1AE-mRWZVNVUYGkkMLAJiVushyTwpmwLLJI_k-Xdq9ARwTGJMN75eLV4s1o1XpZpa7XsAmQZoR-NRGgu0icNr-r6Pejh9Ie-_92piZsxlVsZr-zcd218DxiMGOM_jhmVFwQYaS57BKUgEFih5TGkPfWjK3SZMMS32he832pYIfKCnkmaCbs7_CpmVzCxqkHGqkCsAX6xkJEq113mZMnUqjf54uD1caADoQDrE47rQ-1rigWQ583bUEWb6kJSJj6LcGg4VUztRADFCKoqg9q4Z_AtPe8EhZsEXjAdm839gw61g.jpg\">\n      <div>\n        <div class=\"tm-row-value\">ЮKassa<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/prtm\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/hylERQUdLbHucYmJPLf9b31litllHFyzNFAs42PznQR7qnz11_0U41n22frULdWOjL9wtemkyGY7TnCxvRVnEKySV1UCg0xq-d3I02BRAkuq2uisysf6IejIwr8sshAAAMKu6YD10NBr0ZYLAinyeDs4px8PcpoGMxPRcH04c1rk2h4rsa3vbTKFpj4-epB0WoaiQLPWEQ4jXEqGeztLCIOjnDTcZGrA-iIPFPz7PlGlcWi8N9PgZdPyf6U9ZR6PD9mEkn76v0V3WOF5rX8T53w6CjhvswdzQVTuPzpWMGdH4moqZRBnzgRBKm_vP0u3Y7bZUL8p4pDZCWViJDAaoA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Portmone<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/rbkz\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/nbAv1pvCsjQ_TJ-wdv17s2nVhAezFFpI79nzq03rw9h5F_zrKLK_CVD8Ep1XMpV4onh7d6ZUMgz9mGPlOIp3zEU-C7osVogC3-o71v-wgJrvS6-i_CmeOstPJThvrWGqjZdHNYP1Zodx7gOFHH7sVgxJdIGATAZQgLGMSkD9OftqQMi2GuG2zaRQz6hEGrr8R4Gh_ZTpOa4YGyF3pHPH0Bs2saMIV0qkgccrmzj5gLL-HX51pVL7zUa-3a9D-OPdhwhoFhC4qwX551zUgoBDVbFUQfc2GxTJ4-sknVxYCyAeuroKqGvRI2Nc-aupdQckl34HGzetgnAgipT-lTWM7Q.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Robokassa KZ<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/gpuz\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/rf5EgDIurWc4PGNzQ8nBq6mPj11XImIQhCw-Z2612NXJzygKvxY58pJRq4fd86j3xXFznGXjbpbwz6CeO2ApZJXtWOLDJbEp4CArSXTp9qxpmKHrschTAK6pghhP0nyAmxsrkxf12a72U2Nxe2lJlgYJd-rq112TM_qguoKg8XNjcOuiH2kHxqtyIw2glPV1aptAx5F8qPieE9sdkZW-yrvgeEFrN4TErfdZFGIXA6uG2MNwmVSH6iuM9tEL-ChLtq-HTVTjfWNrchIHcfE3Tv079fsF8vUZWQLIQ2HazeD-iedw8J7iQD5Ok0jNzDCqXZpzLNsT_iziZ0KtvwxDJw.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Global Pay Uzbekistan<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/b131\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/staly4aPpawwYhJ3bRrQCj0c2EMrxbcMSq1RjmrwfFzb_WzahnZCY_gbhetN0wTZZppM48on5jemic67eaOE8cW6ig7AED692zVjdj_hrmm0SYK93OuEyHetO9YNXkWeliptoUxBVTtOHcDior4ox6S5-vXiy1eenvacObAVeW38QCjMnBR0itD-4UuPlc8MTuwdQmbfwgdJ8Ub0qD_3TBW0NO-OB8I8gCEgkz9BvnHO-VPvth3XYdAS62_HA0rUBrNkFW4bwx44hyusedC3wccpBPbV0dKKmNSp-okv1R9joUa3jSs-S2Naz7KndQ3Aj7H68_Sdi3JSbpgTsk3IuA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Bank 131<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/pmaster\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/snKI94-WR_CDHJ1Vb949usI_MGPrSZQHR_MlbctpT-qbeVyYsw-8duZYkSNXd7sKwwJdyxtZn0dYYZHvNGgYf-4KlPt7ox_9D8E8hpTVN_ZB57xaZwKXvyGzCh8l3Y4-OaJDNmMYmufK30DAJFeb-Budpxtg0bVdHbgd3NcLRPWelHw1lf0w0Q5vPQqfgK36KbA84xySstN0AmfsWcpOTZquzoKSqQYI9qkwA-M9RtSWfBsB1uKR1bnN-9PAdbSTM0IGWw6ojejVdDCVUmgcH2P4grIZrYIzB-WtYZUk8dvV4IGAK9oPg8kqzf6cGO90GZMpbkEvyewfsbCZkX48ug.jpg\">\n      <div>\n        <div class=\"tm-row-value\">PayMaster<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/pmuz\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/VxvHJxR3i-G2W4o_Dqu6ULoe8XeuSqkobrVAhUUA95ovZKeulR3UDzm2oDdc3UpA3xj99FZp85eNbtSBh198y56IZqKhdAaY1SdsAhLCRFECCk4wdoqDBSDsiOzxNDZg8ypyAr0XqzQG7pTEMwtoyJQ6uBSGqS-DNait3bhVn_KWrcF0dvRDurgs4HHCFEyXaFJ1m8hc9DDtXASfLcN59qvh446DKWIINb56z9sTr1JD1YkotnB6qC9uqzp3bN03rIwTEHxDOiKmfZfP95OJhYNSyPM9DgiWKi7wi9sKvz0kkPXxIFHYj7lQAYqplkgxKSA1oUK8n9Il-adHy_gbRA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Paycom.Uz<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/ecp\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/sLubj5LBUkGL6MDHJZe05ew_mebOwKT452P2d4cF1Fuzi28PyDRjnzvnTlZ9hL-hoikrUxwxnSrcRsj4XcB0rBsDFXZW0lJnYePWPOOkb9J4IWCo6U-ONJPafeKYS-LqIXXOUBU9ZXSoC2mlxO4VrJHhihvBVyHBPgTPQAtS9L1CPfm04_JDB9PwoITiYpiN5S1MPCenZUCr2fyVq2P3kV2AyuFr8yxVaw70fqqkQUT7wPJJSmqotMmzLbXHBSlRW8hrbV0bCsAT3nvecHTwWUR5BJydTkh2bx7FfY77e2bqJUGRdYiz1fYLdZNOU2GAsGM4NgF6xWjpaQRrB1ZdLA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">ECOMMPAY<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/frduz\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/PCdGbdI4ptQAjrILiKBvUtM6lNuZTPgjwtxWOdAs7ZLcK2tb3IXQWus48mm62NvjFJNC8B_D4b9AB65lkiCsI8Z1xRjZPgCm6s0f-KLs7DC1w0HuUNsojgAY9fVTuqmmLHz05IhByRgTCYY9NcLkYw2JPsd4ynNSHq9YMmb1JX8v6UTOaliBPSZLoR3BwhKsfzwnxY9RBA6HlL3N7QTscBKLmEoFbNEGGpnC5fCOtkWFHe3F2ckdWdYsvLwaGFwR2q7ubggsyNmM8mlhn5A5mCRk5t-O00Tz36u9N-dt0W_3-XLG98dTE74xW8LKUnwdS9S5Rlp8BwqnpS5ufY24Mg.jpg\">\n      <div>\n        <div class=\"tm-row-value\">FreedomPay UZ<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/frdkg\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/gcJACMW1bHxL51O2GP_lxvNV0PdXZzbFWMrzQtEW5oaJzRx3L1bpeaz12b4-ucu2veEvfKeiBHp6avYKJB_CEpEqvLs59heAoOxRaEU1qGSJIEC2nxrp7SNkbnfJNOnCgtcS49CTAi7_dVcIsYLuA1Po6DqJKgSzn3MivORd0qVBt3V19SpxHzU3MHnzXOevH-n6n-Xv4_kmTW4FPlfvT3nSQJCY3kT0-WOciwGWWuIyX8NEdfVB0dw_yMVq_EYkD_zrsogVcQ9sbyO4FEdpu5nqxAi8_auJmgpdxN7qslNiAk8OMk4fyFSg4Xucu0RCQ3QHhgM9qtdhlRBAJNRbzA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">FreedomPay KG<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/ip88\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn5.telesco.pe\/file\/J5fgCDlNNUgnR5I-jN3v-UC8lNW1vldZ4IvUm111MDEiApjb5Hl3dxDKkyvMJTZm1in2v1BmS6vCNhZQjMjgucEZMasJ1o8WjDvEZkU_gn9VLAtKdRGOmjGvn1aW63gfOVs9x_n5WgFoYef30U_ee_b5fcYIEEsaw878mJApR_9YI0t8J9KBJmI3Pt2WFTrfOdJspvgJD26Ii8V7FXtcu8669jW3f97A2MHo_bCisbgKdnpyx9LcJn-VXd8-4GIXrdgBqtVRzJovBVXvGyzZqnN8CbU1yfiBxgY62Nzaf2YV732oWtYSNz6NYwYn35VUUZPbq8PfPEW816gEph6y1g.jpg\">\n      <div>\n        <div class=\"tm-row-value\">iPay88<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/cluz\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/FR5vCAElVV0VvducDd3_GUfkYQl-6JjM1UIi8ZrgAgUFzbDuv7iUDTq7RVn1_M6W7NtBxkG0urpYrlKuB57AzgOymLys8zhGcr38tcXk9GGOv8sh5HZ5Bww5REWUGNhwH4Ur8f1ZM6LUp_gGv7p14SnYuE_InC0UuDwc4b5frVvxbPkjTBDvp1Dxg_Y49dF4sH4nH0lv07-F2t-E4BzMyyl-y4P6cQFvOPmbhHx_ja2fDXQBEDZelyBNkC3L8puJf3BruSL2yE_eTby9gtvaD7RNjJ3Mf_NdsKhZUZor7k9s7i13BzpkjNPJ849FUUIA0w8pCu8rQmKQcRLv2zwTtQ.jpg\">\n      <div>\n        <div class=\"tm-row-value\">CLICK Uzbekistan<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/rbks\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/sFEOY1-2TFzrS4ekqJ43buLZutKBu1k7noNsRcNbntaXuzc2VK7F-yEH-C-p3eszHiOu70XIcRORe0Ni5H6m_sp0z9Nhg81EP4FhMcQoy-iDynbe2iReocjYBnxvePNxqpeZgfIKHdBMyB4RxQWjkOKIwQllE2nWRNZLctm6CoBjlc10q80FMZ2ksSErWgMwztP4kknGhXlvgAbupIS38iuVhT38MKy4U-gKh8dSKgvCWsbI790yCRv4J_J9aQK4swQrYeO4hudj4_2ZoG-dXfoBABFco2tn43rR--1mDmoTK7YJ1EL2pQHVyBv1S49--fy4c7HzraXJima93Z18tA.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Robokassa<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/rnpay\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/exhBMlsb6vY8EvKWjC90WIRe62pVa_na7rCqniCzG5lkSQZg7Z3I6sulr9dG3_LDqCgn58X9VjScBSb1ZHvfgGLaL4rdQwEiY539vUQuXyRZ_dHbotldT2my6Gp9G1fz4Wcv4oiB9J73_Ism_YBvUwtmlCkLp8nwAY_kxpS6dyl5oYHoSYEqp0GP3vyUjW-NkGHKDizzfiz8OfAee3xRB7DsfoSGP8wz7H8xnchdIQBP-CkcceO06E3nmWjVtCuSWP3hS99u4sfCK70CScKLdFAKkrSZurVltJISzhYTACTtzyf_hugPZrWgr5eP6NYzAYOHn6onTXDC3FD9IM7T5Q.jpg\">\n      <div>\n        <div class=\"tm-row-value\">RunPay<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/pbmn\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/QxAaRbgMVDZBgQlK8lTCvajmUD_etSTbtNH7wDxwgYnhKVbIE0OQaCH6HhJ8-vKwPDrlnBblGQCxWkQigEHl4nqiYjjtAi8hxA2xPhlzB_9XOAjmsIsgrmoQwlO6m6NKhkhn9a-b5ByWIQk2i_6ovWPHUN3HNUMSCdVUE_KTbVM4iqWFbzIeMU6a36UYRgIH1C-sm24HnBwIo8O36f86bYxTQBVv2uLkVyW1CE4ydg0vPpCFzfn9ZNZNrksr_c7TDcmDU0zOzS_utjsyMqRTeBxuHsnXI1zKO2Bx_vq47K-Y9tD76vA95wpGP_5RLPqe08kImTgdjw7PZRb1niHRmw.jpg\">\n      <div>\n        <div class=\"tm-row-value\">PayBox.money<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/pyks\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/XweTNRoqwVHwRf0TJZkqQvSreq4-sgfPDHXAujGna0WFXBh8lHN8dQzuA461ATDXHrEjkt7-88w3ZRg2fXg4rroIvBoqdwV61EuyQLVQk3mCb0k1yZ8ah7Yf-nqLmx3BxQXApPfHdrNM4Borw_AQNGkOMkeu9nH24H_SAZJHSpUH36ylgOnRgpqc-gIuTYcyZ6wwN-I7fuWtMNG3Z2zlULyTJKrbad1QKg2Kxs5S7rCEyEasI6vap-authYpR1JQAHtdtfDd1jLoZ7YG0gl8YHAqX73Sx_Z2aVUNgwIOlJPYyGbBWwmtyOZN6iB_dPQsu_pXgSzz-rpM-yuTNIBKbg.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Paykassma<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/psc\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/UGMzzFXml_h_cz3xVsekkW-hFU-e-poUTF1bvq1QVQvfEzQtNMkEtL-R560eDC1SUsZjR2uzSzEPUzMciR45klk6prWgYuvppKvNVghZIucKYDPkPHHw2ODACry_mOgrxM1h6D2WM_BEK3nzg8N9ygoQ6tiQWDydRPL463CSBvvDD4VbtB2UhZ6G3vJDH2vqYxMl7JYovcF4MMbPLHOEOZfv_SQTzCmstk1ClD0dFGuMmS-6alEVptvVj7yP3DzJZkRLsS190A38OLI5YeGxpxICszYDGCP7TWXmNWHdyOSvZk-AjfdFGvVU5VkdG5kynm16DKTXAdD6pRzzJNSVow.jpg\">\n      <div>\n        <div class=\"tm-row-value\">PSC<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/bpdby\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/VlYwxyGeXIQ2thekhYhTNi_ICNZ3q_5_huH-5X0TT3HUb69WDDv68sBS6H82mXLIAGAMf_GAE4C85ifRewFBIzlv-cZDmK22qNfcyuGF6300tvWIKpJb074XxmM_FwXn_jS50zgu9_oxW-VJHwqSMoeqsEIcUj6OQ0BA6qNKltgkt0t8ywREnalP3WEOCnBVcIHmjp3osgYwbCKzADTf1c7qkvtlhxMWtCJHMPZPFD927sVyqBnpuj_Pxwx-95HdQ1Dh-RmVBrc-RKrXhLHfubdn_WjOFd0HAYGQYGLQ6-vafyde5uYS6Gmxk5jn17L0OrMHXxI1m4AuTfIMTSvLLw.jpg\">\n      <div>\n        <div class=\"tm-row-value\">bePaid.by<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/alfby\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/kp4piC1Ck3RrNwDlcS-zLo7MvD9h66MMI1sJBIeR1kR36tnR23DArCKaJ1Bd5wqR8YWXzf8ARRVCGV1avidNek5MWXKYPKVsavAn7H3Tc876RoWdG-fFP-fYqzaQsWyvch_f6q4US7cTNMHj_Xf8MMC5DSu7cBt6LCRmdkYMuz_t0gXTvne_xWmPtpZudpOaG-7D2suYAaIuOgrSnKYrG_SG14EYLusCDkEwL4HU-PgBVjB1VumXB2xHdtsQBP488Pb0VUvKKRcyEfulGzyFnqLbl1m6c7VxrHpo-kdH1mDeiKvTOGThL76Sr_fPdW3rtX0TaoQfDIiaMfYzegzk2A.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Alfa Bank Belarus<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/chapa\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/hoCvmwIRytwR296hMl1stOHanB-GX1PLBFUUaBl-IUMAxK10JRIutPH11N43976obDaUcObUCz8tALyTcAQYXzsEMryNUSnfzjVnxRwW0anYu9yd2CO09nmpQDs02ugszqGsmJuTf29lHi85kxH66uyeZEXEA5mXH_3VnC-2_0LTIsEbHlU3osIzV2VqS2g9V0te9xV5by4xXp0mQAAkiL_BQP-Cp7bNlz-ZxkRyr4uRwq1KLsW7_zSbQr3lKZoa8nk6MuYTHjqmQJLXSgWb9oVf3AulG-qpFn3CumCrcKWRem1VZiRkEgERRlr82ngQq7E53QfuCIL00NRnq337Sg.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Chapa<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/redsys\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/uu6mW_kBZRmHz6HtARTj4_LBon0ZVgA6H067HXcC05EMu429R66oyTp16pwNJY8Vw9yXr2UZ22AdceFo8TDRNbHe9umtMxS9rgAU_KDN93HXKNrN_Oeh1nLQb1CLKUDCkOpgZZ7wRT6ilWEmCcEskAOrtlJFobDH7fPuJ7L5xPm_VAo2nqzk_g6q0Px-QsWfZkEib1M_teYVfwjuMf092R35Ux20ePWPv4cyWD7R4Kjmc6nW812WUDw1X73DED5ggZtVL2SmrSV89j2lq3d_WmjWu4-gXKr3wrlOkR9G1XCy99x4XqSWVFohfkV1nPYRWhM3WaGM-CZQfDSqxi9WBQ.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Redsys<\/div> <div class=\"tm-row-description\"><\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/smartg\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn4.telesco.pe\/file\/dDJq834beY_I7q93uKYTJt-9Pr2zg1Mhn9b1wBpwRNwIkkqrmHOU3SXsVzNexe0mLZEMcpcw5cQojK2zdDawpYKgjCz7vZGiWkNnj7LYZ7ED81cDhk-udijpm3LKhAq4myJxSZKhAL8h2YNbTTAckc_r7-ZO1nQDR9340So2X1t4X38L1rJHaljIluXllkLkVDlu89Sx5gIisacjF-OYb65rwCCJC6aLEaeMoWDgIpbcrpUsXdVNyoDIgLgSd7PAKLz4tpK3bAAGsG-xO1dldByQI7EKi-Fap-UiTxnDAgfIe9QXNtqwb-iLqoeHbOvAene2YXTDlxpWuZwhTbU3QQ.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Smart Glocal<\/div> <div class=\"tm-row-description\">🇮🇩<\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/unln\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"data:image\/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHgyPSIwJSIgeTE9IjAlIiB5Mj0iMTAwJSI%2BPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYyIvPjwvbGluZWFyR3JhZGllbnQ%2BPC9kZWZzPjxzdHlsZT50ZXh0e2ZvbnQ6NjAwIDQ0cHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsJ1NlZ29lIFVJJyxSb2JvdG8sSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWYsJ0FwcGxlIENvbG9yIEVtb2ppJywnU2Vnb2UgVUkgRW1vamknLCdTZWdvZSBVSSBTeW1ib2wnOy13ZWJraXQtdXNlci1zZWxlY3Q6bm9uZTt1c2VyLXNlbGVjdDpub25lfTwvc3R5bGU%2BPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjZykiLz48dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSI1MCIgeT0iNjYiIGZpbGw9IiNmZmYiPkRBPC90ZXh0Pjwvc3ZnPg%3D%3D\">\n      <div>\n        <div class=\"tm-row-value\">Unlimint<\/div> <div class=\"tm-row-description\">🇮🇩<\/div>\n      <\/div>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"\/botfather\/bot\/8795196139\/payments\/amrp\">\n      <img class=\"tm-row-pic tm-row-pic-user\" src=\"https:\/\/cdn1.telesco.pe\/file\/lNgm2cTCCth5YjUokc5eLRJJqcGTMkiYGOwW5QN77IWNxBTeFFhS2YDaxJh-MZCxSEDiIyhuOIixzDBiW2RyTxHPOpx5OIPHM10jCKG2wiQsGCQAr0Pr-lhxXiO7JScVKUXIAQE642Azf7sJGmvhML_tzWK0U3fkbC8PDb8lp6Gup8EE1WLiKjxVDrck_DPRzUeciMpaSlDI7RVOjX9L6Dfk8npPqzVbtxnCJl1L3I2Z9rl4BKGwel1wiwQMEGXDLkg2Vpmd5BafZ-88wHzqysnXBV5UBzM2LFVXqB-vBU5R4DxPLst165hcc7_eGiD0rrdV21eJ2DyU-mMFbyQeJw.jpg\">\n      <div>\n        <div class=\"tm-row-value\">Ammer Pay<\/div> <div class=\"tm-row-description\">🇮🇩<\/div>\n      <\/div>\n    <\/a>\n      <\/div>\n    <\/section>\n  <\/main>  <a class=\"tm-bot-anchor tr-bot-anchor\" href=\"\/botfather\/bot\/8795196139\">\n    <img class=\"tr-bot-avatar\" src=\"https:\/\/cdn5.telesco.pe\/file\/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg\">\n    <span class=\"tr-bot-name\">Bocah<\/span>\n  <\/a>","j":"l.add({\"WEB_PAYMENTS_TOKEN_COPY_SUCCESS\":\"Token copied successfully.\"});\nMain.init('ecd806524af287e719');\nBotPayments.init();\n","s":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139"}}
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotFather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" /><meta name="twitter:card" content="summary"></meta>
+<meta property="og:title" content="BotFather">
+
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+    
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+    <link href="//telegram.org/css/bootstrap-extra.css?2" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/botfather.css?45" rel="stylesheet">
+
+  </head>
+  <body class="emoji_image no-transition">
+    
+    <div id="aj_progress" class="progress-bar"></div>
+    
+    <div id="aj_content">      <main class="tm-main">
+    <section class="tm-main-intro">
+      <div style="--icon: var(--image-url-payments);" class="tm-main-intro-picture tm-accent-icon"></div>
+      <h1 class="tm-main-intro-header">Payments</h1>
+      <p class="tm-main-intro-text" style="max-width: 312px;">
+        Telegram Bot Payments are a free and open platform that allows sellers to accept payments for physical goods and services. <a href="https://core.telegram.org/bots/payments">Read more</a>
+      </p>
+    </section>
+    
+    <section class="tm-section">
+      <div class="tm-section-header">
+        <h2 class="tm-section-header-text">
+          Payment Providers
+        </h2>
+      </div>
+      <div class="tm-table-wrap">
+            <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/yam">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/eGaw6bDDxVsiqnQeBZqTrgtCFnnLayl6FKcMlTnWU1AE-mRWZVNVUYGkkMLAJiVushyTwpmwLLJI_k-Xdq9ARwTGJMN75eLV4s1o1XpZpa7XsAmQZoR-NRGgu0icNr-r6Pejh9Ie-_92piZsxlVsZr-zcd218DxiMGOM_jhmVFwQYaS57BKUgEFih5TGkPfWjK3SZMMS32he832pYIfKCnkmaCbs7_CpmVzCxqkHGqkCsAX6xkJEq113mZMnUqjf54uD1caADoQDrE47rQ-1rigWQ583bUEWb6kJSJj6LcGg4VUztRADFCKoqg9q4Z_AtPe8EhZsEXjAdm839gw61g.jpg">
+      <div>
+        <div class="tm-row-value">ЮKassa</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/prtm">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/hylERQUdLbHucYmJPLf9b31litllHFyzNFAs42PznQR7qnz11_0U41n22frULdWOjL9wtemkyGY7TnCxvRVnEKySV1UCg0xq-d3I02BRAkuq2uisysf6IejIwr8sshAAAMKu6YD10NBr0ZYLAinyeDs4px8PcpoGMxPRcH04c1rk2h4rsa3vbTKFpj4-epB0WoaiQLPWEQ4jXEqGeztLCIOjnDTcZGrA-iIPFPz7PlGlcWi8N9PgZdPyf6U9ZR6PD9mEkn76v0V3WOF5rX8T53w6CjhvswdzQVTuPzpWMGdH4moqZRBnzgRBKm_vP0u3Y7bZUL8p4pDZCWViJDAaoA.jpg">
+      <div>
+        <div class="tm-row-value">Portmone</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/rbkz">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/nbAv1pvCsjQ_TJ-wdv17s2nVhAezFFpI79nzq03rw9h5F_zrKLK_CVD8Ep1XMpV4onh7d6ZUMgz9mGPlOIp3zEU-C7osVogC3-o71v-wgJrvS6-i_CmeOstPJThvrWGqjZdHNYP1Zodx7gOFHH7sVgxJdIGATAZQgLGMSkD9OftqQMi2GuG2zaRQz6hEGrr8R4Gh_ZTpOa4YGyF3pHPH0Bs2saMIV0qkgccrmzj5gLL-HX51pVL7zUa-3a9D-OPdhwhoFhC4qwX551zUgoBDVbFUQfc2GxTJ4-sknVxYCyAeuroKqGvRI2Nc-aupdQckl34HGzetgnAgipT-lTWM7Q.jpg">
+      <div>
+        <div class="tm-row-value">Robokassa KZ</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/gpuz">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/rf5EgDIurWc4PGNzQ8nBq6mPj11XImIQhCw-Z2612NXJzygKvxY58pJRq4fd86j3xXFznGXjbpbwz6CeO2ApZJXtWOLDJbEp4CArSXTp9qxpmKHrschTAK6pghhP0nyAmxsrkxf12a72U2Nxe2lJlgYJd-rq112TM_qguoKg8XNjcOuiH2kHxqtyIw2glPV1aptAx5F8qPieE9sdkZW-yrvgeEFrN4TErfdZFGIXA6uG2MNwmVSH6iuM9tEL-ChLtq-HTVTjfWNrchIHcfE3Tv079fsF8vUZWQLIQ2HazeD-iedw8J7iQD5Ok0jNzDCqXZpzLNsT_iziZ0KtvwxDJw.jpg">
+      <div>
+        <div class="tm-row-value">Global Pay Uzbekistan</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/b131">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/staly4aPpawwYhJ3bRrQCj0c2EMrxbcMSq1RjmrwfFzb_WzahnZCY_gbhetN0wTZZppM48on5jemic67eaOE8cW6ig7AED692zVjdj_hrmm0SYK93OuEyHetO9YNXkWeliptoUxBVTtOHcDior4ox6S5-vXiy1eenvacObAVeW38QCjMnBR0itD-4UuPlc8MTuwdQmbfwgdJ8Ub0qD_3TBW0NO-OB8I8gCEgkz9BvnHO-VPvth3XYdAS62_HA0rUBrNkFW4bwx44hyusedC3wccpBPbV0dKKmNSp-okv1R9joUa3jSs-S2Naz7KndQ3Aj7H68_Sdi3JSbpgTsk3IuA.jpg">
+      <div>
+        <div class="tm-row-value">Bank 131</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/pmaster">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/snKI94-WR_CDHJ1Vb949usI_MGPrSZQHR_MlbctpT-qbeVyYsw-8duZYkSNXd7sKwwJdyxtZn0dYYZHvNGgYf-4KlPt7ox_9D8E8hpTVN_ZB57xaZwKXvyGzCh8l3Y4-OaJDNmMYmufK30DAJFeb-Budpxtg0bVdHbgd3NcLRPWelHw1lf0w0Q5vPQqfgK36KbA84xySstN0AmfsWcpOTZquzoKSqQYI9qkwA-M9RtSWfBsB1uKR1bnN-9PAdbSTM0IGWw6ojejVdDCVUmgcH2P4grIZrYIzB-WtYZUk8dvV4IGAK9oPg8kqzf6cGO90GZMpbkEvyewfsbCZkX48ug.jpg">
+      <div>
+        <div class="tm-row-value">PayMaster</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/pmuz">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/VxvHJxR3i-G2W4o_Dqu6ULoe8XeuSqkobrVAhUUA95ovZKeulR3UDzm2oDdc3UpA3xj99FZp85eNbtSBh198y56IZqKhdAaY1SdsAhLCRFECCk4wdoqDBSDsiOzxNDZg8ypyAr0XqzQG7pTEMwtoyJQ6uBSGqS-DNait3bhVn_KWrcF0dvRDurgs4HHCFEyXaFJ1m8hc9DDtXASfLcN59qvh446DKWIINb56z9sTr1JD1YkotnB6qC9uqzp3bN03rIwTEHxDOiKmfZfP95OJhYNSyPM9DgiWKi7wi9sKvz0kkPXxIFHYj7lQAYqplkgxKSA1oUK8n9Il-adHy_gbRA.jpg">
+      <div>
+        <div class="tm-row-value">Paycom.Uz</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/ecp">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/sLubj5LBUkGL6MDHJZe05ew_mebOwKT452P2d4cF1Fuzi28PyDRjnzvnTlZ9hL-hoikrUxwxnSrcRsj4XcB0rBsDFXZW0lJnYePWPOOkb9J4IWCo6U-ONJPafeKYS-LqIXXOUBU9ZXSoC2mlxO4VrJHhihvBVyHBPgTPQAtS9L1CPfm04_JDB9PwoITiYpiN5S1MPCenZUCr2fyVq2P3kV2AyuFr8yxVaw70fqqkQUT7wPJJSmqotMmzLbXHBSlRW8hrbV0bCsAT3nvecHTwWUR5BJydTkh2bx7FfY77e2bqJUGRdYiz1fYLdZNOU2GAsGM4NgF6xWjpaQRrB1ZdLA.jpg">
+      <div>
+        <div class="tm-row-value">ECOMMPAY</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/frduz">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/PCdGbdI4ptQAjrILiKBvUtM6lNuZTPgjwtxWOdAs7ZLcK2tb3IXQWus48mm62NvjFJNC8B_D4b9AB65lkiCsI8Z1xRjZPgCm6s0f-KLs7DC1w0HuUNsojgAY9fVTuqmmLHz05IhByRgTCYY9NcLkYw2JPsd4ynNSHq9YMmb1JX8v6UTOaliBPSZLoR3BwhKsfzwnxY9RBA6HlL3N7QTscBKLmEoFbNEGGpnC5fCOtkWFHe3F2ckdWdYsvLwaGFwR2q7ubggsyNmM8mlhn5A5mCRk5t-O00Tz36u9N-dt0W_3-XLG98dTE74xW8LKUnwdS9S5Rlp8BwqnpS5ufY24Mg.jpg">
+      <div>
+        <div class="tm-row-value">FreedomPay UZ</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/frdkg">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/gcJACMW1bHxL51O2GP_lxvNV0PdXZzbFWMrzQtEW5oaJzRx3L1bpeaz12b4-ucu2veEvfKeiBHp6avYKJB_CEpEqvLs59heAoOxRaEU1qGSJIEC2nxrp7SNkbnfJNOnCgtcS49CTAi7_dVcIsYLuA1Po6DqJKgSzn3MivORd0qVBt3V19SpxHzU3MHnzXOevH-n6n-Xv4_kmTW4FPlfvT3nSQJCY3kT0-WOciwGWWuIyX8NEdfVB0dw_yMVq_EYkD_zrsogVcQ9sbyO4FEdpu5nqxAi8_auJmgpdxN7qslNiAk8OMk4fyFSg4Xucu0RCQ3QHhgM9qtdhlRBAJNRbzA.jpg">
+      <div>
+        <div class="tm-row-value">FreedomPay KG</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/ip88">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn5.telesco.pe/file/J5fgCDlNNUgnR5I-jN3v-UC8lNW1vldZ4IvUm111MDEiApjb5Hl3dxDKkyvMJTZm1in2v1BmS6vCNhZQjMjgucEZMasJ1o8WjDvEZkU_gn9VLAtKdRGOmjGvn1aW63gfOVs9x_n5WgFoYef30U_ee_b5fcYIEEsaw878mJApR_9YI0t8J9KBJmI3Pt2WFTrfOdJspvgJD26Ii8V7FXtcu8669jW3f97A2MHo_bCisbgKdnpyx9LcJn-VXd8-4GIXrdgBqtVRzJovBVXvGyzZqnN8CbU1yfiBxgY62Nzaf2YV732oWtYSNz6NYwYn35VUUZPbq8PfPEW816gEph6y1g.jpg">
+      <div>
+        <div class="tm-row-value">iPay88</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/cluz">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/FR5vCAElVV0VvducDd3_GUfkYQl-6JjM1UIi8ZrgAgUFzbDuv7iUDTq7RVn1_M6W7NtBxkG0urpYrlKuB57AzgOymLys8zhGcr38tcXk9GGOv8sh5HZ5Bww5REWUGNhwH4Ur8f1ZM6LUp_gGv7p14SnYuE_InC0UuDwc4b5frVvxbPkjTBDvp1Dxg_Y49dF4sH4nH0lv07-F2t-E4BzMyyl-y4P6cQFvOPmbhHx_ja2fDXQBEDZelyBNkC3L8puJf3BruSL2yE_eTby9gtvaD7RNjJ3Mf_NdsKhZUZor7k9s7i13BzpkjNPJ849FUUIA0w8pCu8rQmKQcRLv2zwTtQ.jpg">
+      <div>
+        <div class="tm-row-value">CLICK Uzbekistan</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/rbks">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/sFEOY1-2TFzrS4ekqJ43buLZutKBu1k7noNsRcNbntaXuzc2VK7F-yEH-C-p3eszHiOu70XIcRORe0Ni5H6m_sp0z9Nhg81EP4FhMcQoy-iDynbe2iReocjYBnxvePNxqpeZgfIKHdBMyB4RxQWjkOKIwQllE2nWRNZLctm6CoBjlc10q80FMZ2ksSErWgMwztP4kknGhXlvgAbupIS38iuVhT38MKy4U-gKh8dSKgvCWsbI790yCRv4J_J9aQK4swQrYeO4hudj4_2ZoG-dXfoBABFco2tn43rR--1mDmoTK7YJ1EL2pQHVyBv1S49--fy4c7HzraXJima93Z18tA.jpg">
+      <div>
+        <div class="tm-row-value">Robokassa</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/rnpay">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/exhBMlsb6vY8EvKWjC90WIRe62pVa_na7rCqniCzG5lkSQZg7Z3I6sulr9dG3_LDqCgn58X9VjScBSb1ZHvfgGLaL4rdQwEiY539vUQuXyRZ_dHbotldT2my6Gp9G1fz4Wcv4oiB9J73_Ism_YBvUwtmlCkLp8nwAY_kxpS6dyl5oYHoSYEqp0GP3vyUjW-NkGHKDizzfiz8OfAee3xRB7DsfoSGP8wz7H8xnchdIQBP-CkcceO06E3nmWjVtCuSWP3hS99u4sfCK70CScKLdFAKkrSZurVltJISzhYTACTtzyf_hugPZrWgr5eP6NYzAYOHn6onTXDC3FD9IM7T5Q.jpg">
+      <div>
+        <div class="tm-row-value">RunPay</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/pbmn">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/QxAaRbgMVDZBgQlK8lTCvajmUD_etSTbtNH7wDxwgYnhKVbIE0OQaCH6HhJ8-vKwPDrlnBblGQCxWkQigEHl4nqiYjjtAi8hxA2xPhlzB_9XOAjmsIsgrmoQwlO6m6NKhkhn9a-b5ByWIQk2i_6ovWPHUN3HNUMSCdVUE_KTbVM4iqWFbzIeMU6a36UYRgIH1C-sm24HnBwIo8O36f86bYxTQBVv2uLkVyW1CE4ydg0vPpCFzfn9ZNZNrksr_c7TDcmDU0zOzS_utjsyMqRTeBxuHsnXI1zKO2Bx_vq47K-Y9tD76vA95wpGP_5RLPqe08kImTgdjw7PZRb1niHRmw.jpg">
+      <div>
+        <div class="tm-row-value">PayBox.money</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/pyks">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/XweTNRoqwVHwRf0TJZkqQvSreq4-sgfPDHXAujGna0WFXBh8lHN8dQzuA461ATDXHrEjkt7-88w3ZRg2fXg4rroIvBoqdwV61EuyQLVQk3mCb0k1yZ8ah7Yf-nqLmx3BxQXApPfHdrNM4Borw_AQNGkOMkeu9nH24H_SAZJHSpUH36ylgOnRgpqc-gIuTYcyZ6wwN-I7fuWtMNG3Z2zlULyTJKrbad1QKg2Kxs5S7rCEyEasI6vap-authYpR1JQAHtdtfDd1jLoZ7YG0gl8YHAqX73Sx_Z2aVUNgwIOlJPYyGbBWwmtyOZN6iB_dPQsu_pXgSzz-rpM-yuTNIBKbg.jpg">
+      <div>
+        <div class="tm-row-value">Paykassma</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/psc">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/UGMzzFXml_h_cz3xVsekkW-hFU-e-poUTF1bvq1QVQvfEzQtNMkEtL-R560eDC1SUsZjR2uzSzEPUzMciR45klk6prWgYuvppKvNVghZIucKYDPkPHHw2ODACry_mOgrxM1h6D2WM_BEK3nzg8N9ygoQ6tiQWDydRPL463CSBvvDD4VbtB2UhZ6G3vJDH2vqYxMl7JYovcF4MMbPLHOEOZfv_SQTzCmstk1ClD0dFGuMmS-6alEVptvVj7yP3DzJZkRLsS190A38OLI5YeGxpxICszYDGCP7TWXmNWHdyOSvZk-AjfdFGvVU5VkdG5kynm16DKTXAdD6pRzzJNSVow.jpg">
+      <div>
+        <div class="tm-row-value">PSC</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/bpdby">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/VlYwxyGeXIQ2thekhYhTNi_ICNZ3q_5_huH-5X0TT3HUb69WDDv68sBS6H82mXLIAGAMf_GAE4C85ifRewFBIzlv-cZDmK22qNfcyuGF6300tvWIKpJb074XxmM_FwXn_jS50zgu9_oxW-VJHwqSMoeqsEIcUj6OQ0BA6qNKltgkt0t8ywREnalP3WEOCnBVcIHmjp3osgYwbCKzADTf1c7qkvtlhxMWtCJHMPZPFD927sVyqBnpuj_Pxwx-95HdQ1Dh-RmVBrc-RKrXhLHfubdn_WjOFd0HAYGQYGLQ6-vafyde5uYS6Gmxk5jn17L0OrMHXxI1m4AuTfIMTSvLLw.jpg">
+      <div>
+        <div class="tm-row-value">bePaid.by</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/alfby">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/kp4piC1Ck3RrNwDlcS-zLo7MvD9h66MMI1sJBIeR1kR36tnR23DArCKaJ1Bd5wqR8YWXzf8ARRVCGV1avidNek5MWXKYPKVsavAn7H3Tc876RoWdG-fFP-fYqzaQsWyvch_f6q4US7cTNMHj_Xf8MMC5DSu7cBt6LCRmdkYMuz_t0gXTvne_xWmPtpZudpOaG-7D2suYAaIuOgrSnKYrG_SG14EYLusCDkEwL4HU-PgBVjB1VumXB2xHdtsQBP488Pb0VUvKKRcyEfulGzyFnqLbl1m6c7VxrHpo-kdH1mDeiKvTOGThL76Sr_fPdW3rtX0TaoQfDIiaMfYzegzk2A.jpg">
+      <div>
+        <div class="tm-row-value">Alfa Bank Belarus</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/chapa">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/hoCvmwIRytwR296hMl1stOHanB-GX1PLBFUUaBl-IUMAxK10JRIutPH11N43976obDaUcObUCz8tALyTcAQYXzsEMryNUSnfzjVnxRwW0anYu9yd2CO09nmpQDs02ugszqGsmJuTf29lHi85kxH66uyeZEXEA5mXH_3VnC-2_0LTIsEbHlU3osIzV2VqS2g9V0te9xV5by4xXp0mQAAkiL_BQP-Cp7bNlz-ZxkRyr4uRwq1KLsW7_zSbQr3lKZoa8nk6MuYTHjqmQJLXSgWb9oVf3AulG-qpFn3CumCrcKWRem1VZiRkEgERRlr82ngQq7E53QfuCIL00NRnq337Sg.jpg">
+      <div>
+        <div class="tm-row-value">Chapa</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/redsys">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/uu6mW_kBZRmHz6HtARTj4_LBon0ZVgA6H067HXcC05EMu429R66oyTp16pwNJY8Vw9yXr2UZ22AdceFo8TDRNbHe9umtMxS9rgAU_KDN93HXKNrN_Oeh1nLQb1CLKUDCkOpgZZ7wRT6ilWEmCcEskAOrtlJFobDH7fPuJ7L5xPm_VAo2nqzk_g6q0Px-QsWfZkEib1M_teYVfwjuMf092R35Ux20ePWPv4cyWD7R4Kjmc6nW812WUDw1X73DED5ggZtVL2SmrSV89j2lq3d_WmjWu4-gXKr3wrlOkR9G1XCy99x4XqSWVFohfkV1nPYRWhM3WaGM-CZQfDSqxi9WBQ.jpg">
+      <div>
+        <div class="tm-row-value">Redsys</div> <div class="tm-row-description"></div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/smartg">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn4.telesco.pe/file/dDJq834beY_I7q93uKYTJt-9Pr2zg1Mhn9b1wBpwRNwIkkqrmHOU3SXsVzNexe0mLZEMcpcw5cQojK2zdDawpYKgjCz7vZGiWkNnj7LYZ7ED81cDhk-udijpm3LKhAq4myJxSZKhAL8h2YNbTTAckc_r7-ZO1nQDR9340So2X1t4X38L1rJHaljIluXllkLkVDlu89Sx5gIisacjF-OYb65rwCCJC6aLEaeMoWDgIpbcrpUsXdVNyoDIgLgSd7PAKLz4tpK3bAAGsG-xO1dldByQI7EKi-Fap-UiTxnDAgfIe9QXNtqwb-iLqoeHbOvAene2YXTDlxpWuZwhTbU3QQ.jpg">
+      <div>
+        <div class="tm-row-value">Smart Glocal</div> <div class="tm-row-description">🇮🇩</div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/unln">
+      <img class="tm-row-pic tm-row-pic-user" src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTYwIiBoZWlnaHQ9IjE2MCIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI%2BPGRlZnM%2BPGxpbmVhckdyYWRpZW50IGlkPSJnIiB4MT0iMCUiIHgyPSIwJSIgeTE9IjAlIiB5Mj0iMTAwJSI%2BPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VhZWFlYSIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2NjYyIvPjwvbGluZWFyR3JhZGllbnQ%2BPC9kZWZzPjxzdHlsZT50ZXh0e2ZvbnQ6NjAwIDQ0cHggLWFwcGxlLXN5c3RlbSxCbGlua01hY1N5c3RlbUZvbnQsJ1NlZ29lIFVJJyxSb2JvdG8sSGVsdmV0aWNhLEFyaWFsLHNhbnMtc2VyaWYsJ0FwcGxlIENvbG9yIEVtb2ppJywnU2Vnb2UgVUkgRW1vamknLCdTZWdvZSBVSSBTeW1ib2wnOy13ZWJraXQtdXNlci1zZWxlY3Q6bm9uZTt1c2VyLXNlbGVjdDpub25lfTwvc3R5bGU%2BPHJlY3Qgd2lkdGg9IjEwMCIgaGVpZ2h0PSIxMDAiIGZpbGw9InVybCgjZykiLz48dGV4dCB0ZXh0LWFuY2hvcj0ibWlkZGxlIiB4PSI1MCIgeT0iNjYiIGZpbGw9IiNmZmYiPkRBPC90ZXh0Pjwvc3ZnPg%3D%3D">
+      <div>
+        <div class="tm-row-value">Unlimint</div> <div class="tm-row-description">🇮🇩</div>
+      </div>
+    </a>    <a class="tm-row tm-row-link" href="/botfather/bot/8795196139/payments/amrp">
+      <img class="tm-row-pic tm-row-pic-user" src="https://cdn1.telesco.pe/file/lNgm2cTCCth5YjUokc5eLRJJqcGTMkiYGOwW5QN77IWNxBTeFFhS2YDaxJh-MZCxSEDiIyhuOIixzDBiW2RyTxHPOpx5OIPHM10jCKG2wiQsGCQAr0Pr-lhxXiO7JScVKUXIAQE642Azf7sJGmvhML_tzWK0U3fkbC8PDb8lp6Gup8EE1WLiKjxVDrck_DPRzUeciMpaSlDI7RVOjX9L6Dfk8npPqzVbtxnCJl1L3I2Z9rl4BKGwel1wiwQMEGXDLkg2Vpmd5BafZ-88wHzqysnXBV5UBzM2LFVXqB-vBU5R4DxPLst165hcc7_eGiD0rrdV21eJ2DyU-mMFbyQeJw.jpg">
+      <div>
+        <div class="tm-row-value">Ammer Pay</div> <div class="tm-row-description">🇮🇩</div>
+      </div>
+    </a>
+      </div>
+    </section>
+  </main>  <a class="tm-bot-anchor tr-bot-anchor" href="/botfather/bot/8795196139">
+    <img class="tr-bot-avatar" src="https://cdn5.telesco.pe/file/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg">
+    <span class="tr-bot-name">Bocah</span>
+  </a></div>
+    <script src="//telegram.org/js/jquery.min.js?1"></script>
+    <script src="//telegram.org/js/bootstrap.min.js"></script>
+    <script src="//telegram.org/js/main-aj.js?73"></script>
+    <script src="/js/telegram-web-app.js?62"></script>
+<script src="/js/jquery-ui.min.js?1"></script>
+<script src="/js/jquery.ui.touch-punch.js?1"></script>
+<script src="/js/jquery-ex.js?22"></script>
+<script src="/js/botfather.js?52"></script>
+
+    <script>ajInit({"version":520,"apiUrl":"\/api?hash=ecd806524af287e719","state":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139"}});</script>
+    <script id="aj_script">l.add({"WEB_PAYMENTS_TOKEN_COPY_SUCCESS":"Token copied successfully."});
+Main.init('ecd806524af287e719');
+BotPayments.init();
+</script>
+    <script>Aj.pageLoaded();</script>
+    
+  </body>
+</html>
+<!-- page generated in 39.78ms -->
+  GET https://webappinternal.telegram.org/botfather/bot/8795196139/payments/ecp 200
+
+Request Headers
+
+Accept: application/json, text/javascript, */*; q=0.01
+X-Aj-Referer: https://webappinternal.telegram.org/botfather/bot/8795196139/payments
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 1664
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 04
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"v":520,"t":"BotFather","h":"  <main class=\"tm-main\">\n    <section class=\"tm-section\">\n      <div class=\"tm-section-header\">\n        <h2 class=\"tm-section-header-text\">\n          ECOMMPAY\n        <\/h2>\n      <\/div>\n      <div class=\"tm-table-wrap tm-menu-items\">\n            <a class=\"tm-row tm-row-link\" href=\"https:\/\/t.me\/ECOMMPAY_testbot?start=B_6wo8DAIAAADoZQrgAQAAALy9puAOUDxeDjENcg\">\n      <span>Connect ECOMMPAY Test<\/span>\n    <\/a>    <a class=\"tm-row tm-row-link\" href=\"https:\/\/t.me\/ECOMMPAY_livebot?start=B_6wo8DAIAAADoZQrgAQAAAEIXruwOUDxeDjENcg\">\n      <span>Connect ECOMMPAY Live<\/span>\n    <\/a>\n      <\/div>\n      <p class=\"help-text\">\n        <b>ECOMMPAY<\/b><br\/>Supported merchant countries: 🇦🇹 🇧🇪 🇧🇬 🇭🇷 🇨🇾 🇨🇿 🇩🇰 🇪🇪 🇫🇮 🇫🇷 🇩🇪 🇬🇮 🇬🇷 🇭🇺 🇮🇸 🇮🇪 🇮🇹 🇱🇻 🇱🇮 🇱🇹 🇱🇺 🇲🇹 🇳🇱 🇳🇴 🇵🇱 🇵🇹 🇷🇴 🇸🇰 🇸🇮 🇪🇸 🇸🇪 🇬🇧 🇨🇭<br\/><br\/>Website: <a href=\"https:\/\/ecommpay.com\/\" target=\"_blank\">https:\/\/ecommpay.com\/<\/a><br\/>Pricing: <a href=\"https:\/\/ecommpay.com\/pricing\/\" target=\"_blank\">https:\/\/ecommpay.com\/pricing\/<\/a>\n      <\/p>\n    <\/section>\n    <section class=\"tm-section\">\n      <div class=\"tm-section-header\">\n        <div class=\"tm-section-header-text\">\n          Supported Countries\n        <\/div>\n      <\/div>\n      <div class=\"tm-table-wrap tm-menu-items pe-none\">\n            <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A6F09F87B9.png')\"><b>🇦🇹<\/b><\/i>\n      Austria\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A7F09F87AA.png')\"><b>🇧🇪<\/b><\/i>\n      Belgium\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A7F09F87AC.png')\"><b>🇧🇬<\/b><\/i>\n      Bulgaria\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ADF09F87B7.png')\"><b>🇭🇷<\/b><\/i>\n      Croatia\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A8F09F87BE.png')\"><b>🇨🇾<\/b><\/i>\n      Cyprus\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A8F09F87BF.png')\"><b>🇨🇿<\/b><\/i>\n      Czech Republic\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A9F09F87B0.png')\"><b>🇩🇰<\/b><\/i>\n      Denmark\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87AAF09F87AA.png')\"><b>🇪🇪<\/b><\/i>\n      Estonia\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ABF09F87AE.png')\"><b>🇫🇮<\/b><\/i>\n      Finland\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ABF09F87B7.png')\"><b>🇫🇷<\/b><\/i>\n      France\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A9F09F87AA.png')\"><b>🇩🇪<\/b><\/i>\n      Germany\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ACF09F87AE.png')\"><b>🇬🇮<\/b><\/i>\n      Gibraltar\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ACF09F87B7.png')\"><b>🇬🇷<\/b><\/i>\n      Greece\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ADF09F87BA.png')\"><b>🇭🇺<\/b><\/i>\n      Hungary\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87AEF09F87B8.png')\"><b>🇮🇸<\/b><\/i>\n      Iceland\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87AEF09F87AA.png')\"><b>🇮🇪<\/b><\/i>\n      Ireland\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87AEF09F87B9.png')\"><b>🇮🇹<\/b><\/i>\n      Italy\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B1F09F87BB.png')\"><b>🇱🇻<\/b><\/i>\n      Latvia\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B1F09F87AE.png')\"><b>🇱🇮<\/b><\/i>\n      Liechtenstein\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B1F09F87B9.png')\"><b>🇱🇹<\/b><\/i>\n      Lithuania\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B1F09F87BA.png')\"><b>🇱🇺<\/b><\/i>\n      Luxembourg\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B2F09F87B9.png')\"><b>🇲🇹<\/b><\/i>\n      Malta\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B3F09F87B1.png')\"><b>🇳🇱<\/b><\/i>\n      Netherlands\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B3F09F87B4.png')\"><b>🇳🇴<\/b><\/i>\n      Norway\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B5F09F87B1.png')\"><b>🇵🇱<\/b><\/i>\n      Poland\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B5F09F87B9.png')\"><b>🇵🇹<\/b><\/i>\n      Portugal\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B7F09F87B4.png')\"><b>🇷🇴<\/b><\/i>\n      Romania\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B8F09F87B0.png')\"><b>🇸🇰<\/b><\/i>\n      Slovakia\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B8F09F87AE.png')\"><b>🇸🇮<\/b><\/i>\n      Slovenia\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87AAF09F87B8.png')\"><b>🇪🇸<\/b><\/i>\n      Spain\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87B8F09F87AA.png')\"><b>🇸🇪<\/b><\/i>\n      Sweden\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87ACF09F87A7.png')\"><b>🇬🇧<\/b><\/i>\n      United Kingdom\n    <\/div>    <div class=\"tm-row\">\n      <i class=\"emoji\" style=\"background-image:url('\/\/telegram.org\/img\/emoji\/40\/F09F87A8F09F87AD.png')\"><b>🇨🇭<\/b><\/i>\n      Switzerland\n    <\/div>\n      <\/div>\n    <\/section>\n  <\/main>  <a class=\"tm-bot-anchor tr-bot-anchor\" href=\"\/botfather\/bot\/8795196139\">\n    <img class=\"tr-bot-avatar\" src=\"https:\/\/cdn5.telesco.pe\/file\/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg\">\n    <span class=\"tr-bot-name\">Bocah<\/span>\n  <\/a>","j":"Main.init('ecd806524af287e719');\n","s":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139\/payments"}}
+  
