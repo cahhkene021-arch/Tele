@@ -919,3 +919,213 @@ strict-transport-security: max-age=31536000; includeSubDomains; preload
 {"v":520,"t":"BotFather","h":"<main class=\"tm-main\">\n<form action=\"\/\" class=\"tm-section\">\n  <div class=\"tm-section-header\">\n    <h2 class=\"tm-section-header-text\">\n      New command\n    <\/h2>\n  <\/div>\n  <div class=\"tm-field\" style=\"border-radius: 6px 6px 0 0; margin-bottom: 1px;\">\n    <span class=\"tm-field-const-prefix\">\/<\/span>\n    <input maxlength=\"32\" id=\"command\" type=\"text\" class=\"form-control tm-input\" name=\"command\" value=\"\" placeholder=\"command\" autocomplete=\"off\"  spellcheck=\"false\" \/>\n  <\/div>\n  <div class=\"tm-field \" style=\"border-radius: 0 0 6px 6px;\">\n    <input maxlength=\"256\" id=\"desc\" type=\"text\" class=\"form-control tm-input\" name=\"description\" value=\"\" placeholder=\"Description\" \/>\n  <\/div>\n<\/form>\n<section class=\"tm-section\">\n  <div class=\"tm-section-header\">\n    <h2 class=\"tm-section-header-text\">\n      Scope\n    <\/h2>\n  <\/div>\n  <div class=\"tm-table-wrap\">\n    <div class=\"tm-row tm-row-toggle\" data-field=\"scope\" data-value=\"users\">\n      <span>Direct Messages<\/span>\n      <div style=\"flex-grow: 1\"><\/div>\n      <div class=\"tm-toggle  tm-toggle-on\">\n        <div class=\"tm-toggle-handle\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"tm-row tm-row-toggle\" data-field=\"scope\" data-value=\"chats\">\n      <span>Group Chats<\/span>\n      <div style=\"flex-grow: 1\"><\/div>\n      <div class=\"tm-toggle  tm-toggle-on\">\n        <div class=\"tm-toggle-handle\"><\/div>\n      <\/div>\n    <\/div>\n    <div class=\"tm-row tm-row-toggle\" data-field=\"scope\" data-value=\"chatadmins\">\n      <span>Group Administrators<\/span>\n      <div style=\"flex-grow: 1\"><\/div>\n      <div class=\"tm-toggle  tm-toggle-on\">\n        <div class=\"tm-toggle-handle\"><\/div>\n      <\/div>\n    <\/div>\n  <\/div>\n  <p class=\"help-text link-chevrons\">Choose who sees this command.&nbsp;You can set up more sophisticated logic through API. <a href=\"https:\/\/core.telegram.org\/bots\/api#setmycommands\" target=\"_blank\" rel=\"noopener\">Read More<\/a><\/p>\n<\/section>\n  <a class=\"tm-bot-anchor tr-bot-anchor\" href=\"\/botfather\/bot\/8795196139\">\n    <img class=\"tr-bot-avatar\" src=\"https:\/\/cdn5.telesco.pe\/file\/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg\">\n    <span class=\"tr-bot-name\">Bocah<\/span>\n  <\/a>","j":"l.add({\"WEB_COMMANDS_ADD\":\"Add\",\"WEB_COMMANDS_SAVE\":\"Save\"});\nMain.init('ecd806524af287e719');\nBotCommandEdit.init();\n","s":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139\/commands","editingCommand":"","lang":""}}
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      
   
+GET https://webappinternal.telegram.org/botfather/bot/8795196139/commands 200
+
+Request Headers
+
+Accept: application/json, text/javascript, */*; q=0.01
+X-Aj-Referer: https://webappinternal.telegram.org/botfather/bot/8795196139/commandcreate?lang=
+X-Requested-With: XMLHttpRequest
+
+Response Headers
+
+cache-control: no-store
+content-encoding: gzip
+content-length: 1429
+content-type: application/json; charset=utf-8
+date: Sat, 27 Jun 2026 03
+pragma: no-cache
+server: nginx/1.30.1
+strict-transport-security: max-age=31536000; includeSubDomains; preload
+
+{"v":520,"t":"BotFather","h":"<main class=\"tm-main\">\n<section class=\"tm-main-intro\">\n  <div style=\"--icon: var(--image-url-bot-commands)\" class=\"tm-main-intro-picture tm-accent-icon\"><\/div>\n  <h1 class=\"tm-main-intro-header\">Commands<\/h1>\n  <p class=\"tm-main-intro-text\" style=\"max-width: 312px;\">\n    A command is a simple \/keyword that tells the bot what to do. <a href=\"https:\/\/core.telegram.org\/bots\/features#commands\" target=\"_blank\" rel=\"noopener\">Read more<\/a>\n  <\/p>\n  \n<\/section>\n      <section class=\"tm-section tm-commands-page\">\n      <div class=\"tm-section-header js-commands-header\" style=\"position: relative;\">\n        <h2 class=\"tm-section-header-text\">\n          List\n        <\/h2>\n        <div class=\"btn-group tm-dropdown\" style=\"position: static;\">\n          <button class=\"tm-lang-dropdown-btn tm-dropdown-highlight\" data-toggle=\"dropdown\">\n            Default\n          <\/button>\n          <ul class=\"dropdown-menu tm-lang-dropdown\">\n            <li><a href=\"?choose_lang\" data-layer class=\"dropdown-menu-item tm-lang-add\">Add Localization<\/a><\/li><li class=\"selected\"><a class=\"dropdown-menu-item js-set-lang\" data-value=\"\">Default Localization<\/a><\/li>\n          <\/ul>\n        <\/div>\n        <div class=\"grow-1\"><\/div>\n        <div class=\"tm-section-action edit-button\">Edit<\/div>\n      <\/div>\n      <div class=\"tm-menu-items js-edit-command-list tm-table-wrap list-prevent-edit\">\n        <a class=\"tm-row tm-row-add\" href=\"\/botfather\/bot\/8795196139\/commandcreate?lang=\">Add a Command<\/a>\n        <li data-command=\"mmm\" class=\"tm-row tm-row-link js-sortable\"><span class=\"tm-icon\" style=\"--icon-s: var(--image-url-rearrange)\"><\/span><span class=\"js-command-name\">\/mmm<\/span><span class=\"tm-row-desc js-command-desc grow-1\">Mmk<\/span><span class=\"tm-row-close\"><\/span><\/li><li data-command=\"bbi\" class=\"tm-row tm-row-link js-sortable\"><span class=\"tm-icon\" style=\"--icon-s: var(--image-url-rearrange)\"><\/span><span class=\"js-command-name\">\/bbi<\/span><span class=\"tm-row-desc js-command-desc grow-1\">Itil<\/span><span class=\"tm-row-close\"><\/span><\/li><li data-command=\"kontol\" class=\"tm-row tm-row-link js-sortable\"><span class=\"tm-icon\" style=\"--icon-s: var(--image-url-rearrange)\"><\/span><span class=\"js-command-name\">\/kontol<\/span><span class=\"tm-row-desc js-command-desc grow-1\">Bgst<\/span><span class=\"tm-row-close\"><\/span><\/li><li data-command=\"ady\" class=\"tm-row tm-row-link js-sortable\"><span class=\"tm-icon\" style=\"--icon-s: var(--image-url-rearrange)\"><\/span><span class=\"js-command-name\">\/ady<\/span><span class=\"tm-row-desc js-command-desc grow-1\">Pler<\/span><span class=\"tm-row-close\"><\/span><\/li>\n      <\/div>\n      <p class=\"help-text link-chevrons\">Explore more functionality with the API. <a href=\"https:\/\/core.telegram.org\/bots\/api#setmycommands\" target=\"_blank\" rel=\"noopener\">Read More<\/a><\/p>\n    <\/section>\n<\/main>  <a class=\"tm-bot-anchor tr-bot-anchor\" href=\"\/botfather\/bot\/8795196139\">\n    <img class=\"tr-bot-avatar\" src=\"https:\/\/cdn5.telesco.pe\/file\/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg\">\n    <span class=\"tr-bot-name\">Bocah<\/span>\n  <\/a>","j":"l.add({\"WEB_COMMANDS_EDIT_BTN\":\"Edit\",\"WEB_COMMANDS_DONE_BTN\":\"Done\"});\nMain.init('ecd806524af287e719');\nBotCommandsList.init();\n","s":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139","lang":null}}
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotFather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" /><meta name="twitter:card" content="summary"></meta>
+<meta property="og:title" content="BotFather">
+
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+    
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+    <link href="//telegram.org/css/bootstrap-extra.css?2" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/botfather.css?45" rel="stylesheet">
+
+  </head>
+  <body class="emoji_image no-transition">
+    
+    <div id="aj_progress" class="progress-bar"></div>
+    
+    <div id="aj_content"><main class="tm-main">
+<form action="/" class="tm-section">
+  <div class="tm-section-header">
+    <h2 class="tm-section-header-text">
+      Edit Command
+    </h2>
+  </div>
+  <div class="tm-field" style="border-radius: 6px 6px 0 0; margin-bottom: 1px;">
+    <span class="tm-field-const-prefix">/</span>
+    <input maxlength="32" id="command" type="text" class="form-control tm-input" name="command" value="ady" placeholder="command" autocomplete="off"  spellcheck="false" />
+  </div>
+  <div class="tm-field " style="border-radius: 0 0 6px 6px;">
+    <input maxlength="256" id="desc" type="text" class="form-control tm-input" name="description" value="Pler" placeholder="Description" />
+  </div>
+</form>
+<section class="tm-section">
+  <div class="tm-section-header">
+    <h2 class="tm-section-header-text">
+      Scope
+    </h2>
+  </div>
+  <div class="tm-table-wrap">
+    <div class="tm-row tm-row-toggle" data-field="scope" data-value="users">
+      <span>Direct Messages</span>
+      <div style="flex-grow: 1"></div>
+      <div class="tm-toggle ">
+        <div class="tm-toggle-handle"></div>
+      </div>
+    </div>
+    <div class="tm-row tm-row-toggle" data-field="scope" data-value="chats">
+      <span>Group Chats</span>
+      <div style="flex-grow: 1"></div>
+      <div class="tm-toggle ">
+        <div class="tm-toggle-handle"></div>
+      </div>
+    </div>
+    <div class="tm-row tm-row-toggle" data-field="scope" data-value="chatadmins">
+      <span>Group Administrators</span>
+      <div style="flex-grow: 1"></div>
+      <div class="tm-toggle  tm-toggle-on">
+        <div class="tm-toggle-handle"></div>
+      </div>
+    </div>
+  </div>
+  <p class="help-text link-chevrons">Choose who sees this command.&nbsp;You can set up more sophisticated logic through API. <a href="https://core.telegram.org/bots/api#setmycommands" target="_blank" rel="noopener">Read More</a></p>
+</section>
+  <a class="tm-bot-anchor tr-bot-anchor" href="/botfather/bot/8795196139">
+    <img class="tr-bot-avatar" src="https://cdn5.telesco.pe/file/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg">
+    <span class="tr-bot-name">Bocah</span>
+  </a></div>
+    <script src="//telegram.org/js/jquery.min.js?1"></script>
+    <script src="//telegram.org/js/bootstrap.min.js"></script>
+    <script src="//telegram.org/js/main-aj.js?73"></script>
+    <script src="/js/telegram-web-app.js?62"></script>
+<script src="/js/jquery-ui.min.js?1"></script>
+<script src="/js/jquery.ui.touch-punch.js?1"></script>
+<script src="/js/jquery-ex.js?22"></script>
+<script src="/js/botfather.js?52"></script>
+
+    <script>ajInit({"version":520,"apiUrl":"\/api?hash=ecd806524af287e719","state":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139\/commands","editingCommand":"ady","lang":null}});</script>
+    <script id="aj_script">l.add({"WEB_COMMANDS_ADD":"Add","WEB_COMMANDS_SAVE":"Save"});
+Main.init('ecd806524af287e719');
+BotCommandEdit.init();
+</script>
+    <script>Aj.pageLoaded();</script>
+    
+  </body>
+</html>
+<!-- page generated in 7.46ms -->
+
+  <!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>BotFather</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+<meta name="format-detection" content="telephone=no" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="MobileOptimized" content="176" />
+<meta name="HandheldFriendly" content="True" /><meta name="twitter:card" content="summary"></meta>
+<meta property="og:title" content="BotFather">
+
+    <link rel="icon" type="image/svg+xml" href="/img/website_icon.svg?4">
+<link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/img/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/img/favicon-16x16.png">
+<link rel="alternate icon" href="/img/favicon.ico" type="image/x-icon" />
+    <script>document.cookie="stel_dt="+encodeURIComponent((new Date).getTimezoneOffset())+";path=/;max-age=31536000;samesite=None;secure"</script>
+    
+    <link href="//telegram.org/css/font-roboto.css?1" rel="stylesheet" type="text/css">
+    <link href="//telegram.org/css/bootstrap.min.css?3" rel="stylesheet">
+    <link href="//telegram.org/css/bootstrap-extra.css?2" rel="stylesheet">
+    <link href="/css/bootstrap.min.css?3" rel="stylesheet">
+<link href="/css/bootstrap-extra.css?2" rel="stylesheet">
+<link href="/css/jquery-ui.min.css?1" rel="stylesheet">
+<link href="/css/botfather.css?45" rel="stylesheet">
+
+  </head>
+  <body class="emoji_image no-transition">
+    
+    <div id="aj_progress" class="progress-bar"></div>
+    
+    <div id="aj_content"><main class="tm-main">
+<section class="tm-main-intro">
+  <div style="--icon: var(--image-url-bot-commands)" class="tm-main-intro-picture tm-accent-icon"></div>
+  <h1 class="tm-main-intro-header">Commands</h1>
+  <p class="tm-main-intro-text" style="max-width: 312px;">
+    A command is a simple /keyword that tells the bot what to do. <a href="https://core.telegram.org/bots/features#commands" target="_blank" rel="noopener">Read more</a>
+  </p>
+  
+</section>
+      <section class="tm-section tm-commands-page">
+      <div class="tm-section-header js-commands-header" style="position: relative;">
+        <h2 class="tm-section-header-text">
+          List
+        </h2>
+        <div class="btn-group tm-dropdown" style="position: static;">
+          <button class="tm-lang-dropdown-btn tm-dropdown-highlight" data-toggle="dropdown">
+            Default
+          </button>
+          <ul class="dropdown-menu tm-lang-dropdown">
+            <li><a href="?choose_lang" data-layer class="dropdown-menu-item tm-lang-add">Add Localization</a></li><li class="selected"><a class="dropdown-menu-item js-set-lang" data-value="">Default Localization</a></li>
+          </ul>
+        </div>
+        <div class="grow-1"></div>
+        <div class="tm-section-action edit-button">Edit</div>
+      </div>
+      <div class="tm-menu-items js-edit-command-list tm-table-wrap list-prevent-edit">
+        <a class="tm-row tm-row-add" href="/botfather/bot/8795196139/commandcreate?lang=">Add a Command</a>
+        <li data-command="mmm" class="tm-row tm-row-link js-sortable"><span class="tm-icon" style="--icon-s: var(--image-url-rearrange)"></span><span class="js-command-name">/mmm</span><span class="tm-row-desc js-command-desc grow-1">Mmk</span><span class="tm-row-close"></span></li><li data-command="bbi" class="tm-row tm-row-link js-sortable"><span class="tm-icon" style="--icon-s: var(--image-url-rearrange)"></span><span class="js-command-name">/bbi</span><span class="tm-row-desc js-command-desc grow-1">Itil</span><span class="tm-row-close"></span></li><li data-command="kontol" class="tm-row tm-row-link js-sortable"><span class="tm-icon" style="--icon-s: var(--image-url-rearrange)"></span><span class="js-command-name">/kontol</span><span class="tm-row-desc js-command-desc grow-1">Bgst</span><span class="tm-row-close"></span></li><li data-command="ady" class="tm-row tm-row-link js-sortable"><span class="tm-icon" style="--icon-s: var(--image-url-rearrange)"></span><span class="js-command-name">/ady</span><span class="tm-row-desc js-command-desc grow-1">Pler</span><span class="tm-row-close"></span></li>
+      </div>
+      <p class="help-text link-chevrons">Explore more functionality with the API. <a href="https://core.telegram.org/bots/api#setmycommands" target="_blank" rel="noopener">Read More</a></p>
+    </section>
+</main>  <a class="tm-bot-anchor tr-bot-anchor" href="/botfather/bot/8795196139">
+    <img class="tr-bot-avatar" src="https://cdn5.telesco.pe/file/NWbiSmXCHulRz5TyHy5X6wYTizCf1XTZMxCDw-M3V3TuYe4mFbzmwRUda9Hn23CjziQzD4l8Vp5Zd9SpbvjABopO6iSwMzqqIg4YYYTnxMy7XxA6Pv7t2u7qXMVk7zI9icYgh8xc8xSG_eSGbZjIGvA2nBJmuimCvYcHz-BhtyxCEJKmEM4sxrZJJuQkwTNCNtJoS5ugTU32qM4AOCC8DHaqxyYZjWsgStqAwMiIFaON_iLWWGrNtQrrjV8BzjYejBw2zpOfxWWFmkUdmnjt-w9GH0ZN8XmmGSO0AwjFsounb5KAJNLm8mepvdYQoTje8olKw3sIkjMSqY8gJG4mDw.jpg">
+    <span class="tr-bot-name">Bocah</span>
+  </a></div>
+    <script src="//telegram.org/js/jquery.min.js?1"></script>
+    <script src="//telegram.org/js/bootstrap.min.js"></script>
+    <script src="//telegram.org/js/main-aj.js?73"></script>
+    <script src="/js/telegram-web-app.js?62"></script>
+<script src="/js/jquery-ui.min.js?1"></script>
+<script src="/js/jquery.ui.touch-punch.js?1"></script>
+<script src="/js/jquery-ex.js?22"></script>
+<script src="/js/botfather.js?52"></script>
+
+    <script>ajInit({"version":520,"apiUrl":"\/api?hash=ecd806524af287e719","state":{"botId":"8795196139","backButton":"\/botfather\/bot\/8795196139","lang":null}});</script>
+    <script id="aj_script">l.add({"WEB_COMMANDS_EDIT_BTN":"Edit","WEB_COMMANDS_DONE_BTN":"Done"});
+Main.init('ecd806524af287e719');
+BotCommandsList.init();
+</script>
+    <script>Aj.pageLoaded();</script>
+    
+  </body>
+</html>
+<!-- page generated in 6.12ms -->
+  
